@@ -1,0 +1,12 @@
+[
+    {
+        "id" : "1",
+        "name" : "visiteur",
+        "email" : "fakemail@gotmail.com",
+        "avatarimg" : "/img/user/userFace.jpg",
+        "favBeers" : [1, 4],
+        "favBars" : [2],
+        "lastBeers" : [1,2,4,8,10],
+        "lastBars" : [0,3,1,5]
+    }
+]

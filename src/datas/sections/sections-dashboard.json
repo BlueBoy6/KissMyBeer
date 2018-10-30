@@ -1,0 +1,16 @@
+[
+    {
+        "id" : "0",
+        "title" : "Trouver une bière",
+        "category": "beer",
+        "link" : "/search-beer",
+        "imgthumbnail" : "/img/material/beers.png" 
+    },
+    {
+        "id" : "1",
+        "title" : "Chercher un lieux",
+        "category": "shop",
+        "link" : "/search-shop",
+        "imgthumbnail" : "/img/material/beers.png" 
+    }
+]

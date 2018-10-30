@@ -1,0 +1,333 @@
+$colorText : #212529;
+
+$fontSizeMobile : 20px;
+$fontSizeLaptop : 1.25rem;
+
+$breakpoints: (
+    "phone": 300px,
+    "tablet-up": 768px,
+    "tablet-down": 960px,
+    "laptop": 1280px,
+    "desktop": 1600px,
+);
+
+@mixin gradient2 {
+    background : linear-gradient(135deg, #fef277 -40%, #f3bf2c 120%);
+}
+@mixin gradient2hover {
+    background : linear-gradient(135deg, #fef277 -60%, #f3bf2c 90%);
+}
+@mixin media-min($_key) {
+    @media screen and (min-width: map-get($breakpoints, $_key)) {
+        @content;
+    }
+}
+
+.dropdown.icon{
+    display: none;
+}
+
+
+/*
+////////////////// SEARCH SELECTION
+*/
+
+
+.icon {
+    cursor: pointer;
+    top: 0;
+    right: 0;
+    position: absolute;
+    border-radius: 5px;
+    cursor: pointer;
+    transform-origin: 100%;
+    transform: translateY(20px) translateX(-20px);
+    @include media-min("phone"){
+        width: 40px;
+        height: 40px;
+    }
+    @include media-min("tablet-down"){
+        width: 45px;
+        height: 45px;
+    }
+
+    .search-ico {
+        width: 60%;
+        top: 20%;
+        left: 20%;
+        position: absolute;
+        transition: 0.3s ease-in;
+    }
+    &:hover .search-ico{
+        transform-origin: 50% 50%;
+        transform: scale(1.1) rotateZ(6deg);
+        transition: 0.3s ease-in;
+    }
+}
+
+
+.searchSelection{
+    @include gradient2;
+    padding: 15px;
+    border-radius: 5px;
+    input.search{
+        width: 100%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        @include media-min("phone"){
+            font-size: $fontSizeMobile;
+            height: 50px;
+        }
+        @include media-min("tablet-down"){
+            font-size: $fontSizeLaptop;
+            height: 55px;
+        }
+    }
+    
+
+    &>.text{
+        transform-origin: 0% 0%;
+        pointer-events: none;
+        color: $colorText ;
+        position: absolute;
+        @include media-min("phone"){
+            transform : translateY(-35px) translateX(12px) !important;
+        }
+        @include media-min("tablet-down"){
+            transform : translateY(-37px) translateX(18px) !important;
+        }
+    }
+    &>.text.default{
+        transform-origin: 0% 0%;
+        pointer-events: none;
+        color: $colorText ;
+        position: absolute;
+        @include media-min("phone"){
+            transform : translateY(-35px) translateX(12px)!important;
+        }
+        @include media-min("tablet-down"){
+            transform : translateY(-37px) translateX(18px) !important;
+        }
+    }
+    .menu.transition{
+        position: relative;
+        width:100%;
+        z-index: 999;
+        overflow: hidden;
+        padding: 0px;
+        height: 0;
+        opacity: 0;
+        transform-origin: 0% 0%;
+        transform: scaleY(0.5);
+        transition: 0.3s ease-in;
+        .message{
+            padding: 10px;
+            font-size: 20px;
+            line-height: 22px;
+            transition: 0.3s ease-in;
+            cursor: pointer;
+            @include gradient2;
+        }
+        .item{
+            padding: 20px;
+            font-size: 20px;
+            line-height: 22px;
+            transition: 0.3s ease-in;
+            cursor: pointer;
+            @include gradient2;
+            &:first-child{ border-radius:3px 3px 0px 0px; }
+            &:last-child{border-radius:0px 0px 3px 3px; }
+            &:hover{
+                @include gradient2hover;
+                transition: 0.3s ease-out;
+            }
+        }
+    }
+    .visible.menu.transition{
+        height: auto;
+        max-height: 200px;
+        padding-top: 0px;
+        opacity: 1;
+        left: 0;
+        transform: scaleY(1);
+        transition: 0.3s ease-in;
+        box-shadow: 0px 20px 40px 10px rgb(0,0,0);
+        border-radius: 5px;
+        top: 100%;
+        overflow-y: scroll;
+    }
+
+}
+/*
+////////////////// SIMPLE TEXT INPUT
+*/
+
+.form-group-animate{
+    .label-animate-on-select {
+        transform-origin: 0% 0%;
+        overflow: hidden;
+        cursor: auto;
+        pointer-events: none;
+        position: absolute;
+        @include media-min("phone"){
+            transform: translateX(13px);
+        }
+        @include media-min("laptop"){
+            transform: translateX(20px);
+        }
+    }
+}
+
+.searchTextInput{
+    position: relative;
+    background: linear-gradient(135deg, #fef277 -40%, #f3bf2c 120%);
+    padding: 15px;
+    border-radius: 5px;
+    .label{
+        @include media-min("phone"){
+            font-size: $fontSizeMobile;
+            line-height: $fontSizeMobile + 5px;
+            top: 30px;
+        }
+        @include media-min("tablet-down"){
+            font-size: $fontSizeLaptop;
+            line-height: $fontSizeLaptop;
+            top: 30px;
+        }
+    }
+    .textInput{
+        width: 100%;
+        @include media-min("phone"){
+            font-size: $fontSizeMobile;
+            height: 50px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        @include media-min("laptop"){
+            font-size: $fontSizeLaptop;
+            height: 50px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+    }
+}
+
+
+/*
+////////////////// SEARCH SELECTION MULTIPLE
+*/
+
+.searchSelectionMultiple{
+    background: linear-gradient(135deg, #fef277 -40%, #f3bf2c 120%);
+    padding: 15px;
+    border-radius: 5px;
+    .multiple.selection{
+        width: 100%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        @include media-min("phone"){
+            height: 50px;
+        }
+        @include media-min("laptop"){
+            height: 75px;
+        }
+        .text , .default.text{
+            @include media-min("phone"){
+                font-size: $fontSizeMobile;
+                transform: translateY(-5px);
+            }
+            @include media-min("tablet-down"){
+                font-size: $fontSizeLaptop;
+            }
+        }
+    }
+    .ui.label{
+        padding: 2px 35px 2px 10px;
+        margin-right: 5px;
+        border-radius: 5px;
+        position: relative;
+        @include gradient2;
+        
+        .delete.icon {
+            width: 18px;
+            height: 18px;
+            position: absolute;
+            transform: translateX(-8px)translateY(8px);
+            border-radius:80px;
+            border: solid 3px #000000;
+            cursor: pointer;
+            &:before{
+                position: absolute;
+                content: "";
+                height: 2px;
+                width: 9px;
+                top: 5px;
+                right: 2px;
+                border-radius: 5px;
+                background:  #000000;
+                transform: rotateZ(45deg)
+            }
+            &:after{
+                position: absolute;
+                content: "";
+                height: 2px;
+                width: 9px;
+                top: 5px;
+                right: 2px;
+                border-radius: 5px;
+                background:  #000000;
+                transform: rotateZ(-45deg)
+            }
+        }
+    }
+    .menu.transition{
+        position: relative;
+        width:100%;
+        z-index: 999;
+        overflow: hidden;
+        padding: 0px;
+        height: 0;
+        opacity: 0;
+        transform-origin: 0% 0%;
+        transform: scaleY(0.5);
+        transition: 0.3s ease-in;
+        .message{
+            padding: 10px;
+            font-size: 20px;
+            line-height: 22px;
+            transition: 0.3s ease-in;
+            cursor: pointer;
+            @include gradient2;
+        }
+        .item{
+            padding: 20px;
+            font-size: 20px;
+            line-height: 22px;
+            transition: 0.3s ease-in;
+            cursor: pointer;
+            @include gradient2;
+            &:first-child{ border-radius:3px 3px 0px 0px; }
+            &:last-child{border-radius:0px 0px 3px 3px; }
+            &:hover{
+                @include gradient2hover;
+                transition: 0.3s ease-out;
+            }
+        }
+    }
+    .visible.menu.transition{
+        height: auto;
+        padding: 5px;
+        padding-top: 0px;
+        left: 0;
+        top: 100%;
+        opacity: 1;
+        transform: scaleY(1);
+        transition: 0.3s ease-in;
+    }
+}
+
+.btn.active{
+    transition: 0.3s ease-in;
+    background: linear-gradient(9deg, #2e2974 -35%, #3bceac 150%);
+    color: #ffffff;
+}
