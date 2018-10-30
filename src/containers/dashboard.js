@@ -32,7 +32,8 @@ class Dashboard extends Component {
             beerBrandData : [],
             userGeoPositionX: false, 
             userGeoPositionY:false, 
-            userGeoPositionAccuracy:false
+            userGeoPositionAcuary:false,
+            geolocationActive: false
 
         }
     }
@@ -69,9 +70,10 @@ class Dashboard extends Component {
                     beer Attention
                 </div>
             )
-            case "shop" : return(
+            case "shop" : return (
                 <div className=''>
-                    shop Attention
+                    Tous les lieux de consommation à proximité :
+                    {this.geoloc()}
                 </div>
             )
         }
@@ -88,9 +90,11 @@ class Dashboard extends Component {
           
         var success = (pos) => {
             if(pos.coords.latitude !== this.state.userGeoPositionX || pos.coords.longitude !== this.state.userGeoPositionY){
-                this.setState({userGeoPositionX: pos.coords.latitude })
-                this.setState({userGeoPositionY: pos.coords.longitude })
-                this.setState({userGeoPositionAccuracy: pos.coords.accuracy })           
+                this.setState({userGeoPositionX: pos.coords.latitude,
+                    userGeoPositionY: pos.coords.longitude,
+                    userGeoPositionAcuary: pos.coords.accuracy,
+                    geolocationActive : true
+                })
             }
         };
         
@@ -109,9 +113,16 @@ class Dashboard extends Component {
             this.setState({ loaded : true })
         }
 
-
-        console.log('========positionX============')
-        console.log(this.state.userGeoPositionX)
+        // console.log('====================')
+        // console.log('====================')
+        // console.log('========positionX============')
+        // console.log(this.state.userGeoPositionX)
+        // console.log('========positionY============')
+        // console.log(this.state.userGeoPositionY)
+        // console.log('========positionAccuary============')
+        // console.log(this.state.userGeoPositionAcuary)
+        // console.log('========position : ============')
+        // console.log(this.state.geolocationActive)
 
             
 
@@ -129,8 +140,16 @@ class Dashboard extends Component {
                     </div>
 
                     {this.purposeBySearch()}
-                    la :{this.geoloc()} {this.state.userGeoPositionX && this.state.categoryToSearch === "shop" ? this.state.userGeoPositionX : false}
-                    <MapOSM/>
+                     
+                    {this.state.geolocationActive && (
+                        <MapOSM 
+                        posY={this.state.userGeoPositionX} 
+                        posX={this.state.userGeoPositionY} 
+                        posAccuary={this.state.userGeoPositionAcuary} />
+                    )
+                    }
+                    
+                    
                     
                     {this.state.categoryToSearch === "beer" && <SearchSelection 
                         dataBack={this.BeerSearchDataBack.bind(this)}
@@ -139,7 +158,7 @@ class Dashboard extends Component {
                         placeholder="Décapsuler votre recherche !"
                         addition={false} 
                         options={this.props.beerBrandsList}
-                    /> }
+                    />}
 
 
 

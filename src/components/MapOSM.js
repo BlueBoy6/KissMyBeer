@@ -1,65 +1,50 @@
 import React, { Component } from 'react'
 import { Map, TileLayer, Marker, Popup } from 'react-leaflet'
 
+import "../style/MapOSM.css"
+
 export default class MapOSM extends Component {
   state = {
-    lat: 51.505,
-    lng: -0.09,
-    zoom: 10,
+    zoom: 16,
   }
 
+  
+
   render() {
-    const position = [this.state.lat, this.state.lng]
+    const {posY, posX, posAccuary} = this.props
+    const positionGeo = [posY, posX]
+    
+    console.log('=========Position Y INSIDE===========')
+    console.log(posY)
+    console.log('=========Position X  INSIDE===========')
+    console.log(posX)
+    console.log('=========Position Accuary INSIDE===========')
+    console.log(posAccuary)
+
+    var dataReceived = posY && posX ? true : false;
+    console.log("raxxxx",dataReceived)
+
     return (
-      <Map 
-        center={position} 
-        zoom={this.state.zoom}
-
-      >
-
-        <TileLayer
-          attribution="&amp;copy <a href=&quot;http://osm.org/copyright&quot;>OpenStreetMap</a> contributors"
-          //url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-          url="https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png"
-        />
-        <Marker position={position}>
-          <Popup>
-            A pretty CSS3 popup. <br /> Easily customizable.
-          </Popup>
-        </Marker>
-      </Map>
+      <div className='map-container my-3'>
+          <Map 
+            center={positionGeo} 
+            zoom={this.state.zoom}
+            className="mapOSM"
+          >
+    
+            <TileLayer
+              attribution="&amp;copy <a href=&quot;http://osm.org/copyright&quot;>OpenStreetMap</a> contributors"
+              url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+            />
+            <Marker position={positionGeo}>
+              <Popup>
+                A pretty CSS3 popup. <br /> Easily customizable.
+              </Popup>
+            </Marker>
+          </Map>
+      </div>
     )
   }
 }
 
 
-// import React, { Component } from 'react'
-// import { LeafletMap, TileLayer, Marker, Popup } from 'react-leaflet'
-
-// export default class SimpleExample extends React.Component {
-//   constructor() {
-//     super()
-//     this.state = {
-//       lat: 51.505,
-//       lng: -0.09,
-//       zoom: 13
-//     }
-//   }
-
-//   render() {
-//     const position = [this.state.lat, this.state.lng];
-//     return (
-//       <LeafletMap center={position} zoom={this.state.zoom}>
-//         <TileLayer
-//           attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-//           url='http://{s}.tile.osm.org/{z}/{x}/{y}.png'
-//         />
-//         <Marker position={position}>
-//           <Popup>
-//             A pretty CSS3 popup. <br/> Easily customizable.
-//           </Popup>
-//         </Marker>
-//       </LeafletMap>
-//     );
-//   }
-// }
