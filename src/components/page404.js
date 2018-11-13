@@ -9,7 +9,7 @@ const page404 = () => {
         </div>
         <Link to="/dashboard" >
             <button>
-                Go back to home !
+                Go back to bar !
             </button>
         </Link>
     </div>

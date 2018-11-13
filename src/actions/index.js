@@ -10,6 +10,81 @@ import company from '../datas/beerbdd/compagnie'
 import sectionsOfMenuDashBoard from '../datas/sections/sections-dashboard'
 
 
+
+
+
+
+////////////////////////////////// USER ACTIONS
+export function UserDatas(id){
+    return function(dispatch){
+        var lastShops = []
+        var favShops = []
+        var lastBeers = []
+        var favBeers = []
+
+        var lastShopsFiltered = user[id].lastBars.map((indexShop)=>{
+            return lieux.filter( shop => shop.id === indexShop)
+        })
+        lastShopsFiltered.flat().map((shop)=>{
+            lastShops.push({
+                title : shop.name,
+                subtitle : shop.city,
+                img : shop.img,
+                link : `/${shop.urlCategory}/${shop.id}`
+            })
+        })
+
+        var favShopsFiltered = user[id].favBars.map((indexShop)=>{
+            return lieux.filter( shop => shop.id === indexShop)
+        })
+        favShopsFiltered.flat().map((shop)=>{
+            favShops.push({
+                title : shop.name,
+                subtitle : shop.city,
+                img : shop.img,
+                link : `/${shop.urlCategory}/${shop.id}`
+            })
+        })
+        
+
+        var lastBeersFiltered = user[id].lastBeers.map((indexBeer)=>{
+            return beerList.filter( beer => beer.id === indexBeer)
+        })
+        lastBeersFiltered.flat().map((beer)=>{
+            lastBeers.push({
+                title : beer.brand,
+                subtitle : beer.name,
+                img : beer.img,
+                link : `/${beer.urlCategory}/${beer.id}`
+            })
+        })
+
+        var favBeersFiltered = user[id].favBeers.map((indexShop)=>{
+            return beerList.filter( beer => beer.id === indexShop)
+        })
+        favBeersFiltered.flat().map((beer)=>{
+            favBeers.push({
+                title : beer.brand,
+                subtitle : beer.name,
+                img : beer.img,
+                link : `/${beer.urlCategory}/${beer.id}`
+            })
+        })
+        dispatch({
+            type : ACCOUNT.USERDATA,
+            payload : {
+                name : user[id].name,
+                avatar:  user[id].avatarimg,
+                favShops : favShops.flat(),
+                favBeers : favBeers.flat(),
+                lastShops : lastShops.flat(),
+                lastBeers : lastBeers.flat(),
+            }
+        });
+    }
+}
+
+
 export function consultBeerBrands(){
     return function(dispatch){
         var beersBrandList = [];
@@ -133,81 +208,7 @@ export function shopListByFilterId(tabShops){
     }
 }
 
-////////////////////////////////// USER ACTIONS
-export function UserDatas(id){
-    return function(dispatch){
-        var lastShops = []
-        var favShops = []
-        var lastBeers = []
-        var favBeers = []
 
-        var lastShopsFiltered = user[id].lastBars.map((indexShop)=>{
-            return lieux.filter( shop => shop.id === indexShop)
-        })
-        lastShopsFiltered.flat().map((shop)=>{
-            lastShops.push({
-                title : shop.name,
-                subtitle : shop.city,
-                img : shop.img,
-                link : `/${shop.urlCategory}/${shop.id}`
-            })
-        })
-
-        var favShopsFiltered = user[id].favBars.map((indexShop)=>{
-            return lieux.filter( shop => shop.id === indexShop)
-        })
-        favShopsFiltered.flat().map((shop)=>{
-            favShops.push({
-                title : shop.name,
-                subtitle : shop.city,
-                img : shop.img,
-                link : `/${shop.urlCategory}/${shop.id}`
-            })
-        })
-        
-
-        var lastBeersFiltered = user[id].lastBeers.map((indexBeer)=>{
-            return beerList.filter( beer => beer.id === indexBeer)
-        })
-        lastBeersFiltered.flat().map((beer)=>{
-            lastBeers.push({
-                title : beer.brand,
-                subtitle : beer.name,
-                img : beer.img,
-                link : `/${beer.urlCategory}/${beer.id}`
-            })
-        })
-
-        var favBeersFiltered = user[id].favBeers.map((indexShop)=>{
-            return beerList.filter( beer => beer.id === indexShop)
-        })
-        favBeersFiltered.flat().map((beer)=>{
-            favBeers.push({
-                title : beer.brand,
-                subtitle : beer.name,
-                img : beer.img,
-                link : `/${beer.urlCategory}/${beer.id}`
-            })
-        })
-        dispatch({
-            type : ACCOUNT.USERDATA,
-            payload : {
-                name : user[id].name,
-                avatar:  user[id].avatarimg,
-                favShops : favShops.flat(),
-                favBeers : favBeers.flat(),
-                lastShops : lastShops.flat(),
-                lastBeers : lastBeers.flat(),
-
-            }
-        });
-
-        // dispatch({
-        //     type : SHOP.FILTERED,
-        //     payload : shopsFinded
-        // })
-    }
-}
 
 ////////////////////////////////// MENU 
 export function dashboardMenu(){
@@ -236,10 +237,6 @@ export function beerSelected(index){
                 type : BEER.SELECTED,
                 payload : beerSelected
             });
-            // dispatch({
-            //     type : SHOP.SELECTION,
-            //     payload : []
-            // })
         }else{
             dispatch({
                 type : BEER.SELECTED,

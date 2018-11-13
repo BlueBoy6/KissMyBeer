@@ -9,6 +9,7 @@ import LastBars from "./dumbComponent/LastBars"
 import HeaderBackground from './dumbComponent/HeaderBackground'
 
 import SearchSelection from './SearchSelection'
+import LastVignetsPart from './LastVignetsPart'
 
 import { TweenMax, TimelineLite, Back, CSSPlugin, Power4 } from "gsap/TweenMax";
 import { TimelineMax } from "gsap/all"; 
@@ -57,15 +58,13 @@ class BeerSelected extends Component {
 
     addShop = (e) => {
         const {addShop} = this.state
-        //addShop === false ? this.setState({ addShop : true }) : this.setState({ addShop : false })
         document.querySelectorAll('.btnD.disactive').forEach((btn)=>{
             btn.classList.remove("disactive")
             btn.classList.add("active")
             console.log('===========BTN=========')
             console.log(btn)
         })
-        // e.target.nextSibling.classList.remove("disactive")
-        // e.target.nextSibling.classList.add("active")
+
         this.props.consultShopNameList()
     }
     ShopSelected = (d) => {
@@ -95,6 +94,8 @@ class BeerSelected extends Component {
     const {shopInfoReducer, shopNameListReducer} = this.props
     var shopNameListComplete = this.props.Reducer
     var brandName = name+" "+brand;
+    console.log('====================')
+    console.log(shopInfoReducer)
 
 
 
@@ -175,6 +176,8 @@ class BeerSelected extends Component {
 
 
                 {/* On sort de la partie présentation général */}
+                {/* <LastVignetsPart title="Vous avez testé cette bière" datas={shopInfoReducer} addItem={false} />  */}
+
                 <div className='row my-3 radius gradient2 p-3'>
                     <div className='col-12 perspective'>
                         <div className='title3 mb-3'>
@@ -209,7 +212,6 @@ class BeerSelected extends Component {
                                     </div>
                                 </button>
                             </div>
-                            
                         </div>
                     </div>
                 </div> 

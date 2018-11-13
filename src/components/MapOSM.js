@@ -1,50 +1,93 @@
-import React, { Component } from 'react'
-import { Map, TileLayer, Marker, Popup } from 'react-leaflet'
 
 import "../style/MapOSM.css"
 
-export default class MapOSM extends Component {
+import React, { Component } from 'react'
+import { Map, TileLayer, Marker, Popup, Circle } from 'react-leaflet'
+
+type Position = { lat: number, lng: number }
+
+type State = {
+  center: Position,
+  marker: Position,
+  zoom: number,
+  draggable: boolean,
+}
+
+export default class MapOSM extends Component< {}, State> {
   state = {
-    zoom: 16,
+    center: {
+      lat: 51.505,
+      lng: -0.09,
+    },
+    marker: {
+      lat: 51.505,
+      lng: -0.09,
+    },
+    zoom: 13,
+    draggable: true,
+  }
+  refmarker = React.createRef()
+
+  toggleDraggable = () => {
+    this.setState({ draggable: !this.state.draggable })
   }
 
-  
+  updatePosition = () => {
+    const marker = this.refmarker.current
+    if (marker != null) {
+      this.setState({
+        marker: marker.leafletElement.getLatLng(),
+      })
+    }
+  }
 
   render() {
-    const {posY, posX, posAccuary} = this.props
-    const positionGeo = [posY, posX]
-    
-    console.log('=========Position Y INSIDE===========')
-    console.log(posY)
-    console.log('=========Position X  INSIDE===========')
-    console.log(posX)
-    console.log('=========Position Accuary INSIDE===========')
-    console.log(posAccuary)
+    const position = [this.state.center.lat, this.state.center.lng]
+    const markerPosition = [this.state.marker.lat, this.state.marker.lng]
+    const ownPosition = [51.50361379162684, -0.09]
 
-    var dataReceived = posY && posX ? true : false;
-    console.log("raxxxx",dataReceived)
+    console.log('=========marker Position===========')
+    console.log(markerPosition)
+    console.log('=========own Position===========')
+    console.log(ownPosition)
 
     return (
-      <div className='map-container my-3'>
-          <Map 
-            center={positionGeo} 
-            zoom={this.state.zoom}
-            className="mapOSM"
-          >
-    
-            <TileLayer
-              attribution="&amp;copy <a href=&quot;http://osm.org/copyright&quot;>OpenStreetMap</a> contributors"
-              url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-            />
-            <Marker position={positionGeo}>
-              <Popup>
-                A pretty CSS3 popup. <br /> Easily customizable.
-              </Popup>
-            </Marker>
-          </Map>
-      </div>
+      <Map center={position} zoom={this.state.zoom}>
+        <TileLayer
+          attribution="&amp;copy <a href=&quot;http://osm.org/copyright&quot;>OpenStreetMap</a> contributors"
+          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+        />
+        
+        <Marker title="JE NE BOUGERAI PAS !" position={[51.50329323076107, -0.08153915405273439]}>
+          <Popup autoPan={true} minWidth={90}>
+            POP UP QUI BOUGERA PAS HEHEHEE
+          </Popup>
+        </Marker>
+
+        <Circle center={markerPosition} fillColor="blue" radius={600} />
+
+        <Marker
+          draggable={this.state.draggable}
+          onDragend={this.updatePosition}
+          position={markerPosition}
+          ref={this.refmarker}>
+          <Popup minWidth={90}>
+            <span onClick={this.toggleDraggable}>
+              {this.state.draggable ? 'DRAG MARKER' : 'MARKER FIXED'}
+            </span>
+            <div className='dragNdrop'>
+              position : 
+              <div className=''>
+                lat : {markerPosition[0]}
+              </div>
+                <div className=''>
+                  long : { markerPosition[1]}
+                </div>
+                    
+            </div>
+          </Popup>
+        </Marker>
+      </Map>
     )
   }
 }
-
-

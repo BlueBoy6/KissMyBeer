@@ -1,0 +1,3211 @@
+{
+    "type": "FeatureCollection",
+    "generator": "overpass-ide",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+    "timestamp": "2018-10-31T15:13:02Z",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/44895069",
+          "amenity": "bar",
+          "building": "yes",
+          "name": "KGB"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                4.8379405,
+                45.744015
+              ],
+              [
+                4.8378882,
+                45.7437044
+              ],
+              [
+                4.8379375,
+                45.7437001
+              ],
+              [
+                4.8380481,
+                45.7436908
+              ],
+              [
+                4.8380766,
+                45.7438751
+              ],
+              [
+                4.8382397,
+                45.7438631
+              ],
+              [
+                4.8382691,
+                45.7440362
+              ],
+              [
+                4.83812,
+                45.7440439
+              ],
+              [
+                4.8380981,
+                45.7439192
+              ],
+              [
+                4.8380038,
+                45.7439265
+              ],
+              [
+                4.8380106,
+                45.7439592
+              ],
+              [
+                4.8380509,
+                45.7439555
+              ],
+              [
+                4.8380661,
+                45.7440488
+              ],
+              [
+                4.8379482,
+                45.7440595
+              ],
+              [
+                4.8379405,
+                45.744015
+              ]
+            ]
+          ]
+        },
+        "id": "way/44895069"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/80078857",
+          "addr:postcode": "69003",
+          "addr:street": "Cours Gambetta",
+          "amenity": "bar",
+          "name": "Bar de L'Eldorado"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8458006,
+            45.7544636
+          ]
+        },
+        "id": "node/80078857"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/246746970",
+          "amenity": "bar",
+          "name": "La Baie des Anges"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.826338,
+            45.7673439
+          ]
+        },
+        "id": "node/246746970"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/252333268",
+          "addr:city": "Lyon",
+          "addr:country": "FR",
+          "addr:postcode": "69005",
+          "amenity": "bar",
+          "name": "Le Bonaparte",
+          "tobacco": "yes"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8274691,
+            45.7593749
+          ]
+        },
+        "id": "node/252333268"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/269700755",
+          "amenity": "bar",
+          "brewery": "Carlsberg;Grimbergen;Grimbergen blanche",
+          "name": "Le Bistrot de la Pêcherie",
+          "wheelchair": "no"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8310584,
+            45.7660765
+          ]
+        },
+        "id": "node/269700755"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/270477227",
+          "amenity": "bar",
+          "name": "La Madone"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8570929,
+            45.7673987
+          ]
+        },
+        "id": "node/270477227"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/506071060",
+          "amenity": "bar",
+          "name": "Le Carrefour",
+          "source": "Local survey 22 September 2009"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8809338,
+            45.7480047
+          ]
+        },
+        "id": "node/506071060"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/506877604",
+          "amenity": "bar",
+          "name": "Bar Montchat",
+          "source": "Local survey 22 September 2009"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8808117,
+            45.7483676
+          ]
+        },
+        "id": "node/506877604"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/507002492",
+          "amenity": "bar",
+          "name": "Brasserie des 2 avenues"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8301513,
+            45.7312459
+          ]
+        },
+        "id": "node/507002492"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/507003385",
+          "amenity": "bar"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8295124,
+            45.7316301
+          ]
+        },
+        "id": "node/507003385"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/567859518",
+          "amenity": "bar",
+          "name": "Le Las Vegas"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8300277,
+            45.7318336
+          ]
+        },
+        "id": "node/567859518"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/627851836",
+          "amenity": "bar",
+          "name": "L'Apostrophe",
+          "phone": "+33 4 78 39 08 13"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8278596,
+            45.7661807
+          ]
+        },
+        "id": "node/627851836"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/690603960",
+          "addr:city": "Lyon",
+          "addr:country": "FR",
+          "addr:postcode": "69003",
+          "amenity": "bar",
+          "name": "La Marquise"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.840036,
+            45.758977
+          ]
+        },
+        "id": "node/690603960"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/728647873",
+          "amenity": "bar",
+          "brewery": "Delirium Tremens;Chouffe;Saison Dupont",
+          "internet_access": "no",
+          "name": "Volle Petrol",
+          "outdoor_seating": "yes",
+          "smoking": "yes"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.840564,
+            45.7627905
+          ]
+        },
+        "id": "node/728647873"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/830263191",
+          "addr:housenumber": "43",
+          "addr:postcode": "69002",
+          "addr:street": "Quai Rambaud",
+          "amenity": "bar",
+          "email": "contact@selcius.fr",
+          "name": "Selcius",
+          "opening_hours": "Mo-Sa 11:00-14:30, Su 11:00-17:00, Mo-We 17:30-01:00, Th 17:30-02:00, Fr,Sa 17:30-04:00",
+          "phone": "+33 4 78 92 87 87",
+          "website": "http://www.selcius.fr"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8144955,
+            45.7387685
+          ]
+        },
+        "id": "node/830263191"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/1291616058",
+          "amenity": "bar",
+          "name": "L'Antirouille",
+          "smoking": "outside"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8251857,
+            45.769638
+          ]
+        },
+        "id": "node/1291616058"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/1336704419",
+          "amenity": "bar"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8546821,
+            45.7529386
+          ]
+        },
+        "id": "node/1336704419"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/1345323853",
+          "amenity": "bar",
+          "name": "Divine Café"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8698345,
+            45.752555
+          ]
+        },
+        "id": "node/1345323853"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/1373741975",
+          "addr:housenumber": "34",
+          "addr:postcode": "69003",
+          "addr:street": "Rue du Dauphiné",
+          "amenity": "bar",
+          "entrance": "yes",
+          "name": "Le Manhattan"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8656637,
+            45.7518481
+          ]
+        },
+        "id": "node/1373741975"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/1385676980",
+          "amenity": "bar",
+          "name": "La porte du prince"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8836954,
+            45.7275064
+          ]
+        },
+        "id": "node/1385676980"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/1425529913",
+          "amenity": "bar",
+          "name": "Bar musée Gadagne"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8270948,
+            45.7641317
+          ]
+        },
+        "id": "node/1425529913"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/1445056746",
+          "amenity": "bar",
+          "name": "L'atelier des canulars",
+          "website": "http://latelierdescanulars.over-blog.com/"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8465891,
+            45.7504269
+          ]
+        },
+        "id": "node/1445056746"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/1478224584",
+          "amenity": "bar",
+          "name": "Le Delta"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8032844,
+            45.7699213
+          ]
+        },
+        "id": "node/1478224584"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/1483238584",
+          "amenity": "bar",
+          "brewery": "tripel_karmeliet;chimay;Chouffe;Val Dieu",
+          "name": "The Beers",
+          "opening_hours": "Su-Tu 17:00-01:00, We-Sa 17:00-02:00"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8276435,
+            45.7655291
+          ]
+        },
+        "id": "node/1483238584"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/1490753850",
+          "amenity": "bar",
+          "name": "Caraïbes"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8771782,
+            45.7308778
+          ]
+        },
+        "id": "node/1490753850"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/1542470704",
+          "amenity": "bar",
+          "name": "Nakamal",
+          "note": "The club is open until 1am only if there is a concert.",
+          "opening_hours": "Mo-Fr 10:00-21:00; Sa 14-21; Su off",
+          "phone": "+33 4 78 83 20 45",
+          "website": "http://nakamal.fr/"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8008057,
+            45.7680588
+          ]
+        },
+        "id": "node/1542470704"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/1680182407",
+          "addr:city": "Lyon",
+          "addr:country": "FR",
+          "addr:housenumber": "80",
+          "addr:postcode": "69007",
+          "addr:street": "Rue Montesquieu",
+          "amenity": "bar",
+          "contact:housenumber": "80",
+          "cuisine": "french",
+          "name": "L'Atenium : La taverne",
+          "opening_hours": "Tu-Sa 17:00-00:30"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8449204,
+            45.751274
+          ]
+        },
+        "id": "node/1680182407"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/1700611792",
+          "amenity": "bar",
+          "name": "Café de la Soie",
+          "toilets:wheelchair": "no",
+          "wheelchair": "no"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8346675,
+            45.778074
+          ]
+        },
+        "id": "node/1700611792"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/1790677738",
+          "amenity": "bar"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.830439,
+            45.7535968
+          ]
+        },
+        "id": "node/1790677738"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/1790677986",
+          "amenity": "bar"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8305986,
+            45.7543819
+          ]
+        },
+        "id": "node/1790677986"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/1868899994",
+          "amenity": "bar",
+          "name": "Le Comptoir"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8325604,
+            45.7644122
+          ]
+        },
+        "id": "node/1868899994"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/1868900890",
+          "amenity": "bar",
+          "name": "Broc'Bar"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8317048,
+            45.7660636
+          ]
+        },
+        "id": "node/1868900890"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/1871671180",
+          "addr:housenumber": "31 bis",
+          "addr:street": "Rue du Président Édouard Herriot",
+          "amenity": "bar",
+          "name": "Cap 6"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8346335,
+            45.7646686
+          ]
+        },
+        "id": "node/1871671180"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/1878893140",
+          "amenity": "bar",
+          "name": "Gelateria Zozo",
+          "phone": "+33 4 78 93 72 99",
+          "wheelchair": "limited",
+          "wheelchair:description": "Porte étroite mais sans marche"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8479624,
+            45.7692048
+          ]
+        },
+        "id": "node/1878893140"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/1909722530",
+          "amenity": "bar",
+          "name": "L'Actuel"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8356055,
+            45.7695621
+          ]
+        },
+        "id": "node/1909722530"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/1975495611",
+          "amenity": "bar",
+          "name": "Soda Bar"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8290173,
+            45.7683105
+          ]
+        },
+        "id": "node/1975495611"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/1975495621",
+          "addr:city": "Lyon",
+          "addr:housenumber": "20",
+          "addr:postcode": "69001",
+          "addr:street": "Rue Hippolyte Flandrin",
+          "amenity": "bar",
+          "name": "L'Antiquaire"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8306351,
+            45.767922
+          ]
+        },
+        "id": "node/1975495621"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/1978337023",
+          "amenity": "bar",
+          "cuisine": "american;mexican",
+          "name": "Two Amigos"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8283795,
+            45.7529185
+          ]
+        },
+        "id": "node/1978337023"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2017222986",
+          "amenity": "bar"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8052703,
+            45.7750472
+          ]
+        },
+        "id": "node/2017222986"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2019554933",
+          "addr:housenumber": "3",
+          "addr:postcode": "69004",
+          "addr:street": "Rue d'Austerlitz",
+          "amenity": "bar",
+          "brewery": "Chouffe;Cuvée des trolls;Maredsous;Chimay;paix-Dieu ;Duvel ;malheur 12;ename;caracole;corne;Arend;ara bier;moinette;Orval ;carolus;troubadour",
+          "contact:phone": "+33 4 69679765",
+          "name": "Dikkenek Café",
+          "opening_hours": "Mo 15:00-24:00; Tu-Sa 00:00-01:00,15:00-24:00; Su 00:00-01:00,16:00-24:00"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8336394,
+            45.7759995
+          ]
+        },
+        "id": "node/2019554933"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2019574515",
+          "amenity": "bar",
+          "name": "La Voguette",
+          "opening_hours": "Mo-Sa 17:30-01:00",
+          "smoking": "outside"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.83501,
+            45.7766275
+          ]
+        },
+        "id": "node/2019574515"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2019632297",
+          "amenity": "bar",
+          "name": "Le Bistrot fait sa broc'"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8334846,
+            45.7768298
+          ]
+        },
+        "id": "node/2019632297"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2024995955",
+          "amenity": "bar",
+          "name": "Le Petit Bar"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8699429,
+            45.7530109
+          ]
+        },
+        "id": "node/2024995955"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2077013410",
+          "amenity": "bar",
+          "contact:phone": "+33 9 52958041",
+          "contact:website": "https://fr-fr.facebook.com/La-Faute-aux-Ours-208707902544699/",
+          "cuisine": "french",
+          "internet_access": "no",
+          "name": "La Faute aux Ours",
+          "opening_hours": "Tu-Th 18:00-01:00, Fr-Sa 18:00-02:00",
+          "outdoor_seating": "yes",
+          "payment:cash": "yes",
+          "payment:coins": "yes",
+          "payment:mastercard": "yes",
+          "payment:notes": "yes",
+          "payment:visa": "yes",
+          "smoking": "outside",
+          "source": "survey"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8431398,
+            45.754752
+          ]
+        },
+        "id": "node/2077013410"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2077022276",
+          "addr:city": "Lyon",
+          "addr:country": "FR",
+          "addr:housenumber": "11",
+          "addr:postcode": "69003",
+          "addr:street": "Quai Victor Augagneur",
+          "amenity": "bar",
+          "brewery": "La Veuve Noire",
+          "internet_access": "no",
+          "name": "La Passagère",
+          "source": "Survey"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8402604,
+            45.7606057
+          ]
+        },
+        "id": "node/2077022276"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2077022277",
+          "amenity": "bar",
+          "brewery": "Duvel",
+          "name": "Le Sirius",
+          "phone": "+33 4 78717871",
+          "source": "Survey",
+          "website": "www.lesirius.com"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8403229,
+            45.7610785
+          ]
+        },
+        "id": "node/2077022277"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2077032484",
+          "amenity": "bar",
+          "contact:housenumber": "3",
+          "contact:phone": "+33 9 52 83 07 50",
+          "contact:website": "https://fr-fr.facebook.com/pages/Gonzo-Bar-Lyon/196374213736398",
+          "description": "Bar à cocktails",
+          "name": "Sauvage",
+          "opening_hours": "Tu-Sa 18:00-01:00",
+          "outdoor_seating": "yes"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8394258,
+            45.7541332
+          ]
+        },
+        "id": "node/2077032484"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2087100501",
+          "addr:city": "Lyon",
+          "addr:country": "FR",
+          "addr:postcode": "69003",
+          "amenity": "bar",
+          "name": "Félix Café"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8425778,
+            45.7556489
+          ]
+        },
+        "id": "node/2087100501"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2088224388",
+          "addr:city": "Lyon",
+          "addr:housenumber": "5",
+          "addr:postcode": "69002",
+          "addr:street": "Quai Antoine Riboud",
+          "amenity": "bar",
+          "description": "Bar à tapas.",
+          "name": "Le St Trop",
+          "opening_hours": "Mo-Su 11:00-23:00",
+          "outdoor_seating": "yes"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8165531,
+            45.7429028
+          ]
+        },
+        "id": "node/2088224388"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2107157552",
+          "addr:housenumber": "11",
+          "addr:postcode": "69005",
+          "addr:street": "Place Saint-Paul",
+          "amenity": "bar",
+          "brewery": "leffe;chouffe;chimay;tripel_karmeliet",
+          "name": "La Mi Graine",
+          "phone": "+33 4 78 27 73 88",
+          "website": "https://fr-fr.facebook.com/barlamigraine/"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8273998,
+            45.7664433
+          ]
+        },
+        "id": "node/2107157552"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2108465475",
+          "addr:city": "Lyon",
+          "addr:country": "FR",
+          "addr:postcode": "69003",
+          "addr:street": "Cours Gambetta",
+          "amenity": "bar",
+          "brewery": "chouffe",
+          "contact:housenumber": "3",
+          "internet_access": "no",
+          "name": "Le Gambetta"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8415199,
+            45.756009
+          ]
+        },
+        "id": "node/2108465475"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2108929695",
+          "addr:city": "Lyon",
+          "addr:country": "FR",
+          "addr:housenumber": "17",
+          "addr:postcode": "69003",
+          "addr:street": "Quai Victor Augagneur",
+          "amenity": "bar",
+          "name": "Ayers Rock Boat",
+          "website": "http://www.ayersrocklyon.com/"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8400976,
+            45.7595534
+          ]
+        },
+        "id": "node/2108929695"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2109818703",
+          "amenity": "bar",
+          "name": "L'Angle d'Or"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8420521,
+            45.7546058
+          ]
+        },
+        "id": "node/2109818703"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2119146674",
+          "amenity": "bar",
+          "name": "Aloha"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8346742,
+            45.7667247
+          ]
+        },
+        "id": "node/2119146674"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2119157336",
+          "amenity": "bar",
+          "name": "Le Bec de Jazz"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8332759,
+            45.7704846
+          ]
+        },
+        "id": "node/2119157336"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2127077840",
+          "amenity": "bar",
+          "name": "Bijou"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8051671,
+            45.7790987
+          ]
+        },
+        "id": "node/2127077840"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2183058823",
+          "addr:city": "Lyon",
+          "addr:country": "FR",
+          "addr:postcode": "69007",
+          "addr:street": "Rue Montesquieu",
+          "amenity": "bar",
+          "contact:housenumber": "15",
+          "name": "L'Aromo",
+          "note": "Bar à vin",
+          "opening_hours": "Tu-Sa 18:00-01:00",
+          "website": "http://www.aromo-lyon.com/"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.840532,
+            45.7537657
+          ]
+        },
+        "id": "node/2183058823"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2183058824",
+          "amenity": "bar",
+          "name": "Le Baryum",
+          "outdoor_seating": "yes",
+          "smoking": "outside",
+          "toilets:wheelchair": "yes",
+          "wheelchair": "limited"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8402826,
+            45.7537039
+          ]
+        },
+        "id": "node/2183058824"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2183114225",
+          "amenity": "bar",
+          "name": "La Pipe",
+          "smoking": "outside",
+          "tobacco": "yes"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8370236,
+            45.7469306
+          ]
+        },
+        "id": "node/2183114225"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2183118265",
+          "addr:postcode": "69007",
+          "amenity": "bar",
+          "name": "El Amir",
+          "note": "Uniquement un salon de thé & Narguilé"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.840642,
+            45.7518062
+          ]
+        },
+        "id": "node/2183118265"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2204896173",
+          "addr:city": "Lyon",
+          "addr:country": "FR",
+          "addr:postcode": "69007",
+          "amenity": "bar",
+          "name": "Bar Des Trois Rois"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8428911,
+            45.7539604
+          ]
+        },
+        "id": "node/2204896173"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2204906217",
+          "amenity": "bar",
+          "name": "Mostaganem"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8440337,
+            45.752247
+          ]
+        },
+        "id": "node/2204906217"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2204929087",
+          "addr:city": "Lyon",
+          "addr:country": "FR",
+          "addr:postcode": "69007",
+          "addr:street": "Rue Montesquieu",
+          "amenity": "bar",
+          "name": "Chez Michel",
+          "tobacco": "yes"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.844894,
+            45.7514305
+          ]
+        },
+        "id": "node/2204929087"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2205019199",
+          "addr:city": "Lyon",
+          "addr:country": "FR",
+          "addr:postcode": "69007",
+          "addr:street": "Rue Sébastien Gryphe",
+          "amenity": "bar",
+          "name": "Bar des Artistes"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8426149,
+            45.7510651
+          ]
+        },
+        "id": "node/2205019199"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2217042323",
+          "amenity": "bar",
+          "name": "Bar des Commerçants"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8452267,
+            45.7530338
+          ]
+        },
+        "id": "node/2217042323"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2242945735",
+          "addr:city": "Lyon",
+          "addr:country": "FR",
+          "addr:postcode": "69007",
+          "addr:street": "Rue de Marseille",
+          "amenity": "bar",
+          "contact:housenumber": "7",
+          "name": "Mosaïque de Lyon",
+          "note": "Salon de thé sans alcool"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8417723,
+            45.7538043
+          ]
+        },
+        "id": "node/2242945735"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2243036400",
+          "alt_name": "Le Bar de l'Amitié",
+          "amenity": "bar",
+          "name": "Lom–Pangar",
+          "note": "Chez Tyson"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8491606,
+            45.7507462
+          ]
+        },
+        "id": "node/2243036400"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2273314756",
+          "addr:city": "Lyon",
+          "addr:country": "FR",
+          "addr:postcode": "69007",
+          "addr:street": "Rue de Marseille",
+          "amenity": "bar",
+          "contact:housenumber": "13B",
+          "name": "Bouzy Bar"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8414235,
+            45.7532946
+          ]
+        },
+        "id": "node/2273314756"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2273316602",
+          "addr:city": "Lyon",
+          "addr:country": "FR",
+          "addr:postcode": "69007",
+          "addr:street": "Rue d'Aguesseau",
+          "amenity": "bar",
+          "name": "Le Tanger",
+          "note": "Salon de thé sans alcool"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8420421,
+            45.7538624
+          ]
+        },
+        "id": "node/2273316602"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2283821175",
+          "amenity": "bar",
+          "name": "Le Barberousse",
+          "opening_hours": "Tu-Sa 21:00-04:00",
+          "phone": "+33 4 72 00 80 53",
+          "website": "http://www.barberousse.com/ville/lyon"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8356734,
+            45.7686593
+          ]
+        },
+        "id": "node/2283821175"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2284359913",
+          "amenity": "bar",
+          "name": "Le Bistrot Royal"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8450213,
+            45.7549647
+          ]
+        },
+        "id": "node/2284359913"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2356829447",
+          "amenity": "bar",
+          "name": "Vin Temps",
+          "note": "Bar à vins"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8324435,
+            45.7689426
+          ]
+        },
+        "id": "node/2356829447"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2356843331",
+          "amenity": "bar",
+          "name": "Les Platanes"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8262531,
+            45.7721008
+          ]
+        },
+        "id": "node/2356843331"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2356855440",
+          "amenity": "bar",
+          "name": "La Barge"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8407664,
+            45.7645798
+          ]
+        },
+        "id": "node/2356855440"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2470725718",
+          "amenity": "bar",
+          "name": "La Bouteillerie"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8291032,
+            45.7683124
+          ]
+        },
+        "id": "node/2470725718"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2470725721",
+          "amenity": "bar",
+          "name": "Le Bistro"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8293006,
+            45.768323
+          ]
+        },
+        "id": "node/2470725721"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2476993826",
+          "amenity": "bar",
+          "name": "Au Bon Cru"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8326653,
+            45.7536108
+          ]
+        },
+        "id": "node/2476993826"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2476993846",
+          "amenity": "bar",
+          "name": "Le Cardif"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8266974,
+            45.7545187
+          ]
+        },
+        "id": "node/2476993846"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2476993849",
+          "amenity": "bar",
+          "name": "Le Spleen"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.830897,
+            45.7527072
+          ]
+        },
+        "id": "node/2476993849"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2477064560",
+          "addr:city": "Lyon",
+          "addr:housenumber": "15",
+          "addr:postcode": "69005",
+          "addr:street": "Rue du Doyenné",
+          "amenity": "bar",
+          "name": "Dilemme Club"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8260433,
+            45.7587665
+          ]
+        },
+        "id": "node/2477064560"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2477064566",
+          "amenity": "bar",
+          "name": "Big White"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8281015,
+            45.7646449
+          ]
+        },
+        "id": "node/2477064566"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2477249063",
+          "amenity": "bar",
+          "name": "La Cave des Voyageurs"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8276586,
+            45.7661526
+          ]
+        },
+        "id": "node/2477249063"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2477249065",
+          "amenity": "bar",
+          "name": "Le Bistrouille"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8271697,
+            45.7663243
+          ]
+        },
+        "id": "node/2477249065"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2502529817",
+          "amenity": "bar",
+          "name": "Ayers Rock",
+          "opening_hours": "Mo,We-Sa 20:00-06:00, Tu 20:00-04:00"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8348879,
+            45.7683855
+          ]
+        },
+        "id": "node/2502529817"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2502529820",
+          "amenity": "bar",
+          "name": "Cosmopolitan"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8350612,
+            45.7683738
+          ]
+        },
+        "id": "node/2502529820"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2502529853",
+          "amenity": "bar",
+          "name": "The Monkey Club",
+          "smoking": "no"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8372671,
+            45.7695669
+          ]
+        },
+        "id": "node/2502529853"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2504142128",
+          "amenity": "bar",
+          "name": "Jazzy's Corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8316488,
+            45.7601861
+          ]
+        },
+        "id": "node/2504142128"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2530932156",
+          "amenity": "bar",
+          "brewery": "chouffe;kronenbourg;grimbergen",
+          "name": "La Traboule"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8366021,
+            45.769304
+          ]
+        },
+        "id": "node/2530932156"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2560866778",
+          "amenity": "bar",
+          "name": "Le Marco Polo"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.829457,
+            45.7518753
+          ]
+        },
+        "id": "node/2560866778"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2600475989",
+          "amenity": "bar",
+          "name": "Le Pacha de Lyon"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8411481,
+            45.7532805
+          ]
+        },
+        "id": "node/2600475989"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2600475994",
+          "amenity": "bar",
+          "name": "Le Petit Bar"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8419051,
+            45.7530292
+          ]
+        },
+        "id": "node/2600475994"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2600858740",
+          "amenity": "bar",
+          "name": "Lyonnais K'Fé"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8478935,
+            45.7506237
+          ]
+        },
+        "id": "node/2600858740"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2628206665",
+          "amenity": "bar",
+          "contact:email": "contact@wee-an.com",
+          "contact:phone": "+33 4 72 41 76 45",
+          "contact:website": "http://www.wee-an.com/",
+          "name": "Le Wee-An",
+          "opening_hours": "Tu 17:30-24:00; We-Sa 00:00-01:00,17:30-24:00; Su 00:00-01:00",
+          "smoking": "no"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8417953,
+            45.7592666
+          ]
+        },
+        "id": "node/2628206665"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2663770279",
+          "amenity": "bar",
+          "name": "Bar des Deux Avenues"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8665421,
+            45.7546419
+          ]
+        },
+        "id": "node/2663770279"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2848402507",
+          "amenity": "bar",
+          "name": "Matinée Bar"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8359436,
+            45.7590222
+          ]
+        },
+        "id": "node/2848402507"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2887754981",
+          "amenity": "bar",
+          "contact:facebook": "https://www.facebook.com/jazzclub.laclefdevoute",
+          "contact:housenumber": "1",
+          "contact:street": "Place Chardonnet",
+          "name": "La Clef de Voûte",
+          "phone": "+33 4 78 28 51 95",
+          "website": "http://www.laclefdevoute.fr",
+          "wheelchair": "no"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.834398,
+            45.7708562
+          ]
+        },
+        "id": "node/2887754981"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2900509366",
+          "amenity": "bar",
+          "name": "Le Comptoir du 6ème"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8441256,
+            45.7728396
+          ]
+        },
+        "id": "node/2900509366"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2987542168",
+          "addr:city": "Lyon",
+          "addr:housenumber": "1",
+          "addr:postcode": "69007",
+          "addr:street": "Rue du Béguin",
+          "amenity": "bar",
+          "name": "Café de la Bascule",
+          "outdoor_seating": "yes",
+          "wheelchair": "limited"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8482734,
+            45.7489357
+          ]
+        },
+        "id": "node/2987542168"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/3027310269",
+          "amenity": "bar",
+          "name": "Le Relais"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8654701,
+            45.7378442
+          ]
+        },
+        "id": "node/3027310269"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/3093797404",
+          "amenity": "bar",
+          "contact:facebook": "https://www.facebook.com/Les-Valseuses-180887628624345",
+          "contact:housenumber": "1",
+          "contact:street": "Rue Chappet",
+          "contact:website": "http://www.valseuses.com/info.html",
+          "name": "Les Valseuses"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8352736,
+            45.7713743
+          ]
+        },
+        "id": "node/3093797404"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/3093797405",
+          "amenity": "bar",
+          "name": "Kolok"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8330154,
+            45.7713422
+          ]
+        },
+        "id": "node/3093797405"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/3139833302",
+          "amenity": "bar",
+          "toilets:wheelchair": "no",
+          "wheelchair": "yes"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8526408,
+            45.7688367
+          ]
+        },
+        "id": "node/3139833302"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/3139885913",
+          "amenity": "bar",
+          "name": "Barrio Club"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8598151,
+            45.7667369
+          ]
+        },
+        "id": "node/3139885913"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/3214986932",
+          "addr:city": "Lyon",
+          "addr:housenumber": "4",
+          "addr:postcode": "69005",
+          "addr:street": "Place de la Baleine",
+          "amenity": "bar",
+          "internet_access": "wlan",
+          "name": "Le Florian",
+          "phone": "+33 4 78 42 24 37",
+          "website": "http://le-florian.fr"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8285022,
+            45.7632513
+          ]
+        },
+        "id": "node/3214986932"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/3243656264",
+          "amenity": "bar",
+          "contact:phone": "+33 4 78 72 43 25",
+          "contact:website": "http://www.waina-bar.fr/",
+          "name": "Wāina"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.840363,
+            45.7485297
+          ]
+        },
+        "id": "node/3243656264"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/3380553585",
+          "amenity": "bar",
+          "name": "Le Bouillon Paradis",
+          "opening_hours": "Mo-Fr 09:00-01:00; Sa,Su 09:30-01:00",
+          "smoking": "no"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8432149,
+            45.7502193
+          ]
+        },
+        "id": "node/3380553585"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/3437858693",
+          "amenity": "bar",
+          "name": "La Grooverie",
+          "opening_hours": "Mo-Su 18:00-01:00",
+          "smoking": "outside",
+          "website": "https://www.facebook.com/lagrooverie",
+          "wheelchair": "yes"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.83053,
+            45.769738
+          ]
+        },
+        "id": "node/3437858693"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/3471713593",
+          "amenity": "bar",
+          "name": "Le Troquet des Sens"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.832311,
+            45.752283
+          ]
+        },
+        "id": "node/3471713593"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/3606692522",
+          "addr:city": "Lyon",
+          "addr:housenumber": "29",
+          "addr:postcode": "69001",
+          "addr:street": "Rue de l'Arbre Sec",
+          "amenity": "bar",
+          "name": "Black Forest Society"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8375558,
+            45.7667943
+          ]
+        },
+        "id": "node/3606692522"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/3627385136",
+          "addr:city": "Lyon",
+          "addr:housenumber": "13",
+          "addr:postcode": "69001",
+          "addr:street": "Rue Lanterne",
+          "amenity": "bar",
+          "name": "Pick Me Up",
+          "website": "pickmeup.fr"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8318689,
+            45.7665813
+          ]
+        },
+        "id": "node/3627385136"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/3628241990",
+          "amenity": "bar",
+          "contact:phone": "+33 4 72079571",
+          "name": "Biz Too Fly"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8298426,
+            45.7691816
+          ]
+        },
+        "id": "node/3628241990"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/3637297364",
+          "addr:city": "Lyon",
+          "addr:housenumber": "12",
+          "addr:postcode": "69002",
+          "addr:street": "Cours Suchet",
+          "amenity": "bar",
+          "name": "L'envie"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8213074,
+            45.747809
+          ]
+        },
+        "id": "node/3637297364"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/3718546955",
+          "amenity": "bar",
+          "name": "Betty’s Bar",
+          "outdoor_seating": "yes",
+          "smoking": "no"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8261387,
+            45.7598043
+          ]
+        },
+        "id": "node/3718546955"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/3729195746",
+          "amenity": "bar",
+          "name": "Modern Art Café"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8225114,
+            45.7735842
+          ]
+        },
+        "id": "node/3729195746"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/3729223315",
+          "amenity": "bar",
+          "name": "Bistrot du Boulevard"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8219471,
+            45.7734155
+          ]
+        },
+        "id": "node/3729223315"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/3729785861",
+          "amenity": "bar",
+          "name": "Bonnet Bar"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.823836,
+            45.7742168
+          ]
+        },
+        "id": "node/3729785861"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/3731956341",
+          "amenity": "bar",
+          "name": "Harmonie des vins",
+          "opening_hours": "Tu-Fr 10:00-14:00,18:30-01:00, Sa 18:30-24:00",
+          "website": "http://www.harmoniedesvins.fr/"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8351227,
+            45.7653244
+          ]
+        },
+        "id": "node/3731956341"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/3762102329",
+          "amenity": "bar",
+          "contact:website": "http://www.le-sucre.eu/",
+          "name": "Le Sucre",
+          "opening_hours": "Fr 18:30-01:00, Sa 23:00-05:00, Su 16:00-23:00",
+          "outdoor_seating": "yes"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8150098,
+            45.7366431
+          ]
+        },
+        "id": "node/3762102329"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/3834539565",
+          "addr:city": "Lyon",
+          "addr:housenumber": "14",
+          "addr:postcode": "69007",
+          "addr:street": "Rue Crépet",
+          "amenity": "bar",
+          "name": "Le Blogg",
+          "opening_hours": "Mo-Th 18:00-01:00; Fr,Sa 22:00-04:00"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.832519,
+            45.7384585
+          ]
+        },
+        "id": "node/3834539565"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/3941334103",
+          "addr:street": "Montée des Carmélites",
+          "amenity": "bar",
+          "name": "L'Atmo"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8283705,
+            45.7713065
+          ]
+        },
+        "id": "node/3941334103"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/3952947936",
+          "amenity": "bar",
+          "name": "Le Churchill"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8408416,
+            45.7789318
+          ]
+        },
+        "id": "node/3952947936"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/3963755348",
+          "amenity": "bar",
+          "name": "L'Œnothèque De Lyon",
+          "phone": "+33 9 82 33 33 02",
+          "website": "http://oenothequedelyon.fr",
+          "wheelchair": "limited"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8351311,
+            45.7755973
+          ]
+        },
+        "id": "node/3963755348"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/4108215263",
+          "addr:city": "Lyon",
+          "addr:housenumber": "4",
+          "addr:postcode": "69005",
+          "addr:street": "Quai des Etroits",
+          "amenity": "bar",
+          "name": "Sonic Lyon",
+          "website": "http://www.sonic-lyon.fr/"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8202173,
+            45.7506831
+          ]
+        },
+        "id": "node/4108215263"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/4193563757",
+          "amenity": "bar",
+          "name": "Siam Bistro",
+          "opening_hours": "Mo,Tu 10:00-16:00, We-Fr 10:00-22:00",
+          "outdoor_seating": "yes",
+          "phone": "+33 478950728",
+          "wheelchair": "limited"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8575316,
+            45.7560962
+          ]
+        },
+        "id": "node/4193563757"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/4261093902",
+          "addr:city": "Lyon",
+          "addr:housenumber": "70",
+          "addr:postcode": "69002",
+          "addr:street": "Cours Suchet",
+          "amenity": "bar",
+          "name": "Le Comptoir d'Alain",
+          "phone": "+33 4 78 60 87 86",
+          "website": "http://www.comptoirdalain.com/"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8270149,
+            45.7454294
+          ]
+        },
+        "id": "node/4261093902"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/4310371166",
+          "amenity": "bar",
+          "name": "L'Absinthe",
+          "opening_hours": "Tu-Su 18:00-04:00",
+          "wheelchair": "limited"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8264574,
+            45.7702436
+          ]
+        },
+        "id": "node/4310371166"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/4358669591",
+          "addr:housenumber": "4",
+          "addr:postcode": "69001",
+          "addr:street": "Rue du Jardin des Plantes",
+          "amenity": "bar",
+          "brewery": "yes",
+          "name": "L'Orangerie",
+          "opening_hours": "Mo,Tu 17:00-00:00; We-Sa 17:00-01:00",
+          "phone": "+33 6 77 89 20 77",
+          "website": "http://lorangerie-bar.fr/",
+          "wheelchair": "no"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8296795,
+            45.7695631
+          ]
+        },
+        "id": "node/4358669591"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/4426165594",
+          "amenity": "bar",
+          "name": "La Patrie"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8447873,
+            45.7633845
+          ]
+        },
+        "id": "node/4426165594"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/4426476928",
+          "amenity": "bar",
+          "name": "Hot Club de Lyon",
+          "opening_hours": "Tu-Sa 20:00-1:00"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8319655,
+            45.7656408
+          ]
+        },
+        "id": "node/4426476928"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/4427755291",
+          "amenity": "bar",
+          "level": "0",
+          "name": "La boulangerie du Prado"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8423301,
+            45.7506427
+          ]
+        },
+        "id": "node/4427755291"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/4437680391",
+          "amenity": "bar",
+          "cuisine": "breakfast;tapas",
+          "name": "Le Blind Pig"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.855513,
+            45.7673109
+          ]
+        },
+        "id": "node/4437680391"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/4437685591",
+          "amenity": "bar",
+          "name": "Happy Feel",
+          "opening_hours": "Mo-Fr 07:00-15:00"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8619527,
+            45.7684968
+          ]
+        },
+        "id": "node/4437685591"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/4517246772",
+          "amenity": "bar",
+          "name": "Hecho en México"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.836745,
+            45.7694585
+          ]
+        },
+        "id": "node/4517246772"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/4531755654",
+          "amenity": "bar",
+          "name": "AlternatiBar - Maison des alternatives",
+          "opening_hours": "Th-Sa 18:00-00:00",
+          "phone": "+33 4 78 28 42 06",
+          "smoking": "no",
+          "website": "https://alternatiba.eu/rhone/alternatibar/"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8319566,
+            45.7692293
+          ]
+        },
+        "id": "node/4531755654"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/4566577160",
+          "amenity": "bar",
+          "internet_access": "no",
+          "name": "Chez Nath"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8837084,
+            45.7240506
+          ]
+        },
+        "id": "node/4566577160"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/4607996706",
+          "addr:city": "Lyon",
+          "addr:housenumber": "2",
+          "addr:postcode": "69005",
+          "addr:street": "Rue du Palais de Justice",
+          "amenity": "bar",
+          "name": "Look Bar",
+          "phone": "+33 4 78 37 38 94"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8285561,
+            45.7622831
+          ]
+        },
+        "id": "node/4607996706"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/4747925321",
+          "amenity": "bar",
+          "contact:housenumber": "32",
+          "contact:phone": "+33635260324",
+          "contact:street": "Rue des Tables Claudiennes",
+          "contact:website": "https://www.meltdown.bar/lyon",
+          "internet_access": "wlan",
+          "name": "Meltdown Lyon",
+          "opening_hours": "Mo-Sa 18:00-01:00; Su 15:00-23:00"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8350951,
+            45.7710272
+          ]
+        },
+        "id": "node/4747925321"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/4767264635",
+          "amenity": "bar",
+          "name": "La Tenaille",
+          "opening_hours": "Tu-Sa 17:00-01:00",
+          "smoking": "outside"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8256417,
+            45.7697757
+          ]
+        },
+        "id": "node/4767264635"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/4792393661",
+          "amenity": "bar",
+          "name": "Le Vinci",
+          "outdoor_seating": "yes"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8090988,
+            45.7734887
+          ]
+        },
+        "id": "node/4792393661"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/4795817524",
+          "amenity": "bar",
+          "name": "Le Passage",
+          "opening_hours": "Tu-Sa 20:00-01:00"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.833876,
+            45.7659506
+          ]
+        },
+        "id": "node/4795817524"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/4825868924",
+          "amenity": "bar",
+          "email": "lespralins@gmail.com",
+          "name": "Les Pralins",
+          "opening_hours": "We-Sa 11:00-01:00; Su 11:00-19:00",
+          "phone": "+33427823818",
+          "website": "http://www.lespralins.com"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8424799,
+            45.7509384
+          ]
+        },
+        "id": "node/4825868924"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/4834362722",
+          "addr:housenumber": "8",
+          "addr:postcode": "69001",
+          "addr:street": "Rue Rivet",
+          "amenity": "bar",
+          "name": "La Tenaille",
+          "name:fr": "La Tenaille",
+          "opening_hours": "Tu-Sa 17:00-01:00",
+          "phone": "+33 9 81 77 10 65",
+          "website": "http://www.bar-la-tenaille-lyon.fr/"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8254563,
+            45.7697658
+          ]
+        },
+        "id": "node/4834362722"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/4894334590",
+          "amenity": "bar",
+          "name": "Le Moko"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8308585,
+            45.7677092
+          ]
+        },
+        "id": "node/4894334590"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/4929491012",
+          "amenity": "bar",
+          "name": "Le comptoir du 3ème"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.854598,
+            45.7531928
+          ]
+        },
+        "id": "node/4929491012"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/4930487821",
+          "amenity": "bar",
+          "name": "L'Ange Di Vin"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.832048,
+            45.7613121
+          ]
+        },
+        "id": "node/4930487821"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/4940584513",
+          "amenity": "bar",
+          "cuisine": "latin_american",
+          "name": "Macanudo",
+          "opening_hours": "Tu-Sa 12:00-01:00",
+          "outdoor_seating": "yes",
+          "phone": "+33 4 72 70 88 77",
+          "website": "http://www.macanudo.fr/"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8385663,
+            45.7536464
+          ]
+        },
+        "id": "node/4940584513"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/5039727657",
+          "amenity": "bar",
+          "name": "Le Drink"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8866862,
+            45.7503266
+          ]
+        },
+        "id": "node/5039727657"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/5068464829",
+          "addr:city": "Lyon",
+          "addr:housenumber": "1",
+          "addr:postcode": "69005",
+          "addr:street": "Rue Joliot-Curie",
+          "amenity": "bar",
+          "name": "Le Bénédicte"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.7968329,
+            45.7561962
+          ]
+        },
+        "id": "node/5068464829"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/5104774383",
+          "addr:city": "Lyon",
+          "addr:housenumber": "32",
+          "addr:postcode": "69002",
+          "addr:street": "Cours Charlemagne",
+          "amenity": "bar",
+          "description": "Bar à bières.",
+          "email": "contact@brasserieplatypus.com",
+          "name": "Platypus Café Brewpub",
+          "opening_hours": "Lu-Sa 16:00-00:00",
+          "phone": "+336 50 88 03 50",
+          "website": "https://brasserieplatypus.com/"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8236024,
+            45.7462897
+          ]
+        },
+        "id": "node/5104774383"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/5116858721",
+          "amenity": "bar",
+          "name": "Le Fantôme de l'Opéra",
+          "phone": "+33 4 37 92 03 88",
+          "website": "http://www.lefantomedelopera.fr/"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8373425,
+            45.7710181
+          ]
+        },
+        "id": "node/5116858721"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/5130495451",
+          "amenity": "bar",
+          "name": "La Première Plantation",
+          "opening_hours": "Mo-Su 17:00-01:00",
+          "website": "http://la-premiere-plantation.business.site/"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8563643,
+            45.7682605
+          ]
+        },
+        "id": "node/5130495451"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/5230020620",
+          "amenity": "bar",
+          "contact:facebook": "https://www.facebook.com/LesBarjaqueurs/",
+          "name": "Les Barjaqueurs",
+          "opening_hours": "Mo-Su 17:00-01:00",
+          "outdoor_seating": "yes",
+          "smoking": "outside",
+          "website": "http://www.les-barjaqueurs.com/"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.836705,
+            45.7704012
+          ]
+        },
+        "id": "node/5230020620"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/5298143155",
+          "amenity": "bar",
+          "contact:city": "Lyon",
+          "contact:country": "FR",
+          "contact:housenumber": "33",
+          "contact:postcode": "69005",
+          "contact:street": "Rue de Trion",
+          "name": "Le temps d'une pause"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8161456,
+            45.7567937
+          ]
+        },
+        "id": "node/5298143155"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/5309712466",
+          "addr:city": "Lyon",
+          "addr:housenumber": "44",
+          "addr:postcode": "69007",
+          "addr:street": "Rue Salomon Reinach",
+          "amenity": "bar",
+          "brewery": "yes",
+          "name": "Young Lust Bar",
+          "opening_hours": "Tu-Sa 17:00-01:00, Su 15:00-23:00",
+          "smoking": "outside"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8421862,
+            45.7508907
+          ]
+        },
+        "id": "node/5309712466"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/5314752158",
+          "amenity": "bar",
+          "name": "Toutancanon"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8776192,
+            45.7468994
+          ]
+        },
+        "id": "node/5314752158"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/5381482684",
+          "amenity": "bar",
+          "description": "bar restaurant",
+          "name": "Le Florida"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8042615,
+            45.7764012
+          ]
+        },
+        "id": "node/5381482684"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/5387193989",
+          "amenity": "bar",
+          "contact:email": "contact@mmlyon.com",
+          "contact:phone": "+33 4 72008767",
+          "contact:website": "http://mmlyon.com/",
+          "name": "La Maison Mère",
+          "opening_hours": "We-Sa 19:30-04:00"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8300084,
+            45.7685124
+          ]
+        },
+        "id": "node/5387193989"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/5403800843",
+          "amenity": "bar",
+          "contact:facebook": "https://www.facebook.com/lebistrodacote",
+          "contact:housenumber": "28",
+          "contact:street": "Rue des Tables Claudiennes",
+          "name": "le BistrO d'À côté"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8345855,
+            45.7709749
+          ]
+        },
+        "id": "node/5403800843"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/5435506467",
+          "amenity": "bar",
+          "name": "La Station"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.875252,
+            45.7549728
+          ]
+        },
+        "id": "node/5435506467"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/5512514457",
+          "amenity": "bar"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8299973,
+            45.750057
+          ]
+        },
+        "id": "node/5512514457"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/5528388634",
+          "addr:city": "Lyon",
+          "addr:housenumber": "42",
+          "addr:postcode": "69009",
+          "addr:street": "Quai de Pierre Scize",
+          "amenity": "bar",
+          "name": "Bar Le 42"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8184735,
+            45.7662992
+          ]
+        },
+        "id": "node/5528388634"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/5536564126",
+          "amenity": "bar",
+          "name": "Bar du Tramway"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8853953,
+            45.7540424
+          ]
+        },
+        "id": "node/5536564126"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/5536564129",
+          "amenity": "bar",
+          "name": "L'étincelle"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8880371,
+            45.7539001
+          ]
+        },
+        "id": "node/5536564129"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/5538563321",
+          "amenity": "bar",
+          "name": "Barabaar",
+          "opening_hours": "08:00-01:00",
+          "outdoor_seating": "yes"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8568353,
+            45.7696185
+          ]
+        },
+        "id": "node/5538563321"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/5598900921",
+          "amenity": "bar",
+          "name": "Le Bar Bu"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8289244,
+            45.7654445
+          ]
+        },
+        "id": "node/5598900921"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/5598948342",
+          "amenity": "bar",
+          "name": "La Charité"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8310519,
+            45.7516765
+          ]
+        },
+        "id": "node/5598948342"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/5606383068",
+          "amenity": "bar",
+          "name": "Micro-pub Nomade Brewery"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8511837,
+            45.7570965
+          ]
+        },
+        "id": "node/5606383068"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/5607827702",
+          "amenity": "bar",
+          "name": "Au comptoir du poulet",
+          "opening_hours": "Mo-Th 11:30-14:00, 18:30-22:00; Fr, Sa 11:30-14:30, 18:30-23:00; Su 12:00-14:30, 18:00-22:00",
+          "smoking": "outside"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8321425,
+            45.7669813
+          ]
+        },
+        "id": "node/5607827702"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/5703689695",
+          "amenity": "bar",
+          "contact:phone": "+33 437 660 590",
+          "name": "L'aperitivo",
+          "outdoor_seating": "yes",
+          "smoking": "outside"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.838654,
+            45.747567
+          ]
+        },
+        "id": "node/5703689695"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/5706977358",
+          "amenity": "bar",
+          "name": "Groom"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8370066,
+            45.7706062
+          ]
+        },
+        "id": "node/5706977358"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/5752127441",
+          "amenity": "bar",
+          "brewery": "yes",
+          "description": "Bar associatif, avec bibliothèque gratuite (sans emprunt)",
+          "name": "L'Amicale du Futur",
+          "note": "Présence d'une bibliothèque gratuite (sans emprunt)",
+          "opening_hours": "Th-Sa 09:00-00:00",
+          "outdoor_seating": "no",
+          "smoking": "outside",
+          "website": "https://amicale.online/"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8441559,
+            45.7521649
+          ]
+        },
+        "id": "node/5752127441"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/5868664558",
+          "amenity": "bar",
+          "brewery": "yes",
+          "name": "My Beers",
+          "outdoor_seating": "yes",
+          "smoking": "outside"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8201763,
+            45.7413583
+          ]
+        },
+        "id": "node/5868664558"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/5871205186",
+          "amenity": "bar",
+          "brewery": "BrewDog Punk Ipa",
+          "name": "PEPS public House",
+          "opening_hours": "Mo-Su 15:00-01:00",
+          "outdoor_seating": "yes"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8395817,
+            45.7544491
+          ]
+        },
+        "id": "node/5871205186"
+      }
+    ]
+  }

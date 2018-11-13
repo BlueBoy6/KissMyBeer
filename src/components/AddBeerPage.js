@@ -252,7 +252,7 @@ class AddBeerPage extends Component {
 
 
                                 <div className='justify-content-center mt-5 mb-5'>
-                                    <button type="submit" className="btn title2 gradient2-action py-4 btn-lg btn-block shadow">Ajoutez !</button>
+                                    <button type="submit" className="btn title2 bckgcolor1 py-4 btn-lg btn-block shadow">Ajoutez !</button>
                                 </div>
                         </div>
                     </div>

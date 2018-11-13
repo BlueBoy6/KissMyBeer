@@ -1,10 +1,13 @@
 import React from 'react'
 import {Link } from 'react-router-dom'
+import SearchSelection from './SearchSelection'
 
 const LastVignetsPart = (props) => {
 
 
-    const {datas} = props
+    const {datas, addItem} = props
+    console.log('=========datas in vignet===========')
+    console.log(datas)
 
     return (
         <div className='p-3 p-sm-5 gradient1 radius shadow mb-3'>
@@ -35,6 +38,32 @@ const LastVignetsPart = (props) => {
                     
                 })}
             </div>
+            {addItem && (
+                <div className='row'>
+                <div className='col-12 col-sm-3'>
+                    <button onClick={(e)=>{this.addShop(e)}} className="btn pointer-action btn-block py-3 bckgcolor1 btn-lg shadow sameH100">
+                        <img className="icon-add" src="/img/icons/plus-ico.png"/>
+                    </button>
+                </div>
+                <div className='col-12 col-sm-7 btnD disactive'>
+                    <SearchSelection 
+                        dataBack={props.dataBack}
+                        index="1" 
+                        className="shadow z3" 
+                        placeholder="Dans quel bar avez-vous consommé cette bière"
+                        addition={false} 
+                        options={props.options}
+                    />
+                </div>
+                <div className='col-12 col-sm-2 btnD disactive'>
+                    <button className="btn pointer-action btn-block py-3 bckgcolor1 btn-lg shadow sameH100">
+                        <div className='title3'>
+                            Ajouter !
+                        </div>
+                    </button>
+                </div>
+            </div>
+            )}
         </div>
     )
 }

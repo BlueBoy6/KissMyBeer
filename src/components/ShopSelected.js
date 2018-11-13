@@ -39,14 +39,20 @@ class ShopSelected extends Component {
 
     const shopName = this.props.shopSelectedReducer.name;
     const shopAdress = this.props.shopSelectedReducer.street;
-    const shopCity = this.props.shopSelectedReducer.ville;
+    const shopCity = this.props.shopSelectedReducer.city;
     const shopImg = this.props.shopSelectedReducer.img;
     const shopAdressLastBeers = this.props.shopSelectedReducer.lastBeersTried;
+
+    console.log('====================')
+    console.log(shopAdress)
 
     const header = () => {
         return <HeaderBackground 
             title={[shopName, shopCity]}
             logo={false} 
+            fullHeight={true}
+            textCentered={true}
+            titleSize="1" 
             imgBckg={shopImg} 
         />
     }
@@ -85,12 +91,12 @@ class ShopSelected extends Component {
                         </div>
                     </div>
                 </div>
-            </div>
-            <div className='row mb-3'>
-                <div className='col justify-content-center mx-auto'>
-                    <Link to='/'>
-                        <button type="submit" className="btn btn-block gradient2-action btn-lg shadow">Revenir à l'accueil</button>
-                    </Link>
+                <div className='row mb-3'>
+                    <div className='col justify-content-center mx-auto'>
+                        <Link to='/'>
+                            <button type="submit" className="btn btn-block bckgcolor1 btn-lg py-3 shadow">Revenir à l'accueil</button>
+                        </Link>
+                    </div>
                 </div>
             </div>
         </div>
