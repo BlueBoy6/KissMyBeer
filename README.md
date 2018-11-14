@@ -1,3 +1,5 @@
+# What about Kiss my Beer ?
+
 Kiss my Beer est un projet personnel, qui m'a permis de mieux découvrir le fonctionnement React, React-Router et Redux ainsi que certaines librairies front-end comme Semantic UI.
 
 Ce projet est toujours en cours de développement et surtout en voie d'amélioration ! Ne soyez donc pas offusquer de voir certaines obscénités comme des setTimeout inutiles criant à une meilleure utilisation du cycle de vie, des actions redux inutiles ou même des blocs de code qui méritent d'être passer en functionnal component. 
