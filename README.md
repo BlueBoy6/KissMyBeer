@@ -21,4 +21,4 @@ Merci de votre indulgence.
 
 
 Ah oui c'est vrai, j'allais oublié : 
-"L’abus d’alcool est dangereux pour la santé, en revanche l'application est à consommer sans modération." :)
+"L’abus d’alcool est dangereux pour la santé, en revanche l'application est à utiliser sans modération." :)
