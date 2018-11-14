@@ -22,3 +22,7 @@ Merci de votre indulgence.
 
 Ah oui c'est vrai, j'allais oublié : 
 "L’abus d’alcool est dangereux pour la santé, en revanche l'application est à utiliser sans modération." :)
+
+
+
+Vous avez tout lu ? Super alors voilà un petit lien pour voir à quoi ça peut ressembler pour l'instant : https://rocky-ridge-40172.herokuapp.com/
